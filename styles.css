@@ -76,6 +76,7 @@ header p{
     color: #608C54;
     text-shadow: 0 0 10px #608C54, 0 0 20px #608C54, 0 0 30px #608C54;
     letter-spacing: 1.5px;
+    text-align: center;
 }
 
 .skills-grid{
@@ -238,8 +239,8 @@ header p{
 
     .exp:hover {
     transform: translateX(0) scale(1.05);
-    color: #ff4e91;
-    text-shadow: 0 0 10px #ff4e91cc;
+    color: #4a8d31;
+    text-shadow: 0 0 10px #4a8d31, 0 0 20px #4a8d31, 0 0 30px #4a8d31;
     }
 
 
@@ -249,9 +250,9 @@ header p{
     top: 35px;
     width: 18px;
     height: 18px;
-    background: #ff4e91;
+    background: #4a6f3c;
     border-radius: 50%;
-    box-shadow: 0 0 8px #ff4e91cc;
+    box-shadow: 0 0 8px #4a6f3c;
     transition: background-color 0.3s ease;
     z-index: 10;
     }
@@ -269,7 +270,7 @@ header p{
 
     .exp h3 {
     margin-bottom: 8px;
-    color: #ff4e91;
+    color: #ffffff;
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -279,7 +280,7 @@ header p{
     .exp p {
     font-size: 1rem;
     line-height: 1.5;
-    color: #ddb4bc;
+    color: #ffffff;
     letter-spacing: 0.01em;
     }
 
@@ -288,12 +289,12 @@ header p{
     footer {
     text-align: center;
     padding: 35px 15px;
-    background: #2b001f;
+    background: #608C54;
     font-size: 0.95rem;
-    color: #d4a1aa;
+    color: #ffffff;
     letter-spacing: 0.04em;
     user-select: none;
-    box-shadow: 0 0 30px #a7002b88 inset;
+    box-shadow: 0 0 30px #48b928 inset;
     }
 
 
@@ -302,31 +303,31 @@ header p{
     }
 
 
-    .socials a {
+.socials a {
     margin: 0 12px;
-    color: #ff4e91;
+    color: #4a6f3c;
     font-size: 1.8rem;
     display: inline-block;
     transition: transform 0.3s ease, color 0.3s ease;
     cursor: pointer;
-    filter: drop-shadow(0 0 4px #ff4e91bb);
+    filter: drop-shadow(0 0 4px #4a6f3c);
     will-change: transform, color;
-    }
+}
 
 
     .socials a img {
     width: 25px;
     height: 25px;
     transition: transform 0.3s ease, filter 0.3s ease;
-    filter: drop-shadow(0 0 4px #ff4e91bb);
+    filter: drop-shadow(0 0 4px #4a6f3c);
     will-change: transform, filter;
 }
 
 
     .socials a:hover {
     transform: scale(1.5) rotate(-10deg);
-    color: #ffa3b9;
-    filter: drop-shadow(0 0 14px #ffa3b9cc);
+    color: #48b928;
+    filter: drop-shadow(0 0 14px #48b928);
     }
 
 
